@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html><html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Personal Website</title>
+
+    <style>
+
+        body {
+
+            margin: 0;
+
+            font-family: Arial, sans-serif;
+
+            background: linear-gradient(135deg, #e8eef3, #f7f9fc);
+
+            color: #333;
+
+            transition: background 0.8s ease-in-out;
+
+        }
+
+        header {
+
+            background: #333;
+
+            color: #fff;
+
+            padding: 20px;
+
+            text-align: center;
+
+        }
+
+        nav {
+
+            background: #444;
+
+            padding: 10px;
+
+            display: flex;
+
+            justify-content: center;
+
+            gap: 20px;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 18px;
+
+        }
+
+        nav a:hover {
+
+            text-decoration: underline;
+
+        }
+
+        section {
+
+            display: none;
+
+            padding: 40px;
+
+            max-width: 900px;
+
+            margin: auto;
+
+            background: white;
+
+            margin-top: 20px;
+
+            border-radius: 20px;
+
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+            animation: fadeIn 0.8s ease;
+
+        }
+
+        section.active {
+
+            display: block;
+
+        }
+
+        img.sample-img {
+
+            width: 200px;
+
+            border-radius: 10px;
+
+            margin-top: 10px;
+
+        }
+
+    @keyframes fadeIn {
+
+            from { opacity: 0; transform: translateY(10px); }
+
+            to { opacity: 1; transform: translateY(0); }
+
+        }.icons {
+
+        margin-top: 20px;
+
+        display: flex;
+
+        gap: 15px;
+
+    }
+
+    .icons img {
+
+        width: 32px;
+
+        height: 32px;
+
+        cursor: pointer;
+
+        transition: transform 0.2s ease;
+
+    }
+
+    .icons img:hover {
+
+        transform: scale(1.1);
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>My Personal Website</h1>
+
+    </header><nav>
+
+    <a href="#" onclick="showPage('home')">Home</a>
+
+    <a href="#" onclick="showPage('about')">About Me</a>
+
+    <a href="#" onclick="showPage('hobbies')">My Hobbies</a>
+
+    <a href="#" onclick="showPage('school')">My Schools</a>
+
+    <a href="#" onclick="showPage('degrees')">My Degrees</a>
+
+    <a href="#" onclick="showPage('contact')">Contact Me</a>
+
+</nav>
+
+<!-- HOME -->
+
+<section id="home" class="active">
+
+    <h2>Welcome to My Website</h2>
+
+    <p>This is my personal space where you can learn about me, my hobbies, my education, and how to reach me.</p>
+
+    <img src="https://via.placeholder.com/200" class="sample-img" alt="Home Image" />
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p><strong>Name:</strong> Aryan Raj</p>
+
+    <p><strong>Age:</strong> 13</p>
+
+    <p><strong>Location:</strong> Gidhaur (Jamui), Bihar</p>
+
+    <p><strong>Class:</strong> 7</p>
+
+    <p>I am a very courageous student, disciplined, and full of humility and ethics.</p>
+
+    <img src="https://via.placeholder.com/200" class="sample-img" alt="About Me Image" />
+
+</section>
+
+<!-- HOBBIES -->
+
+<section id="hobbies">
+
+    <h2>My Hobbies</h2>
+
+    <p>I enjoy making friends easily, playing video games, reading books, and travelling with my family.</p>
+
+    <img src="https://via.placeholder.com/200" class="sample-img" alt="Hobbies Image" />
+
+</section>
+
+<!-- SCHOOL -->
+
+<section id="school">
+
+    <h2>My Schools</h2>
+
+    <p><strong>Current School:</strong> Vinoba Bhave Public School</p>
+
+    <p><strong>Previous School:</strong> Great Buddha International School</p>
+
+    <p><strong>Class:</strong> 07 (2025)</p>
+
+    <p><strong>Stream:</strong> Science (Physics and Biology)</p>
+
+    <img src="https://via.placeholder.com/200" class="sample-img" alt="School Image" />
+
+</section>
+
+<!-- DEGREES -->
+
+<section id="degrees">
+
+    <h2>My Degrees & Achievements</h2>
+
+    <p>I have received an award from my past school for sports excellence.</p>
+
+    <img src="https://via.placeholder.com/200" class="sample-img" alt="Degrees Image" />
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <ul>
+
+        <li><strong>Email:</strong> Aryanraj3081@gmail.com</li>
+
+        <li><strong>Phone:</strong> 8617648789</li>
+
+        <li><strong>Address:</strong> Gidhaur (Jamui), Bihar, 811305</li>
+
+    </ul>
+
+    <div class="icons">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" />
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384005.png" alt="Facebook" />
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384028.png" alt="YouTube" />
+
+    </div>
+
+</section>
+
+<script>
+
+    function showPage(pageId) {
+
+        document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+
+        document.getElementById(pageId).classList.add("active");
+
+    }
+
+</script>
+
+</body>
+
+</html>
+    
+  </body>
+  
+</html>
